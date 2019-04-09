@@ -28,12 +28,9 @@
 
 
   <body>
-
-		<div class="image">
-			<h1>CRUD</h1>
-		</div>
-		
+    <h1>CRUD</h1>
 		<h3>Create, Read, Update & Delete</h3>
+    
 
 <!-- Deze code geeft een bevestigingsbericht weer om de gebruiker te laten weten dat er een nieuw record in de database is aangemaakt. -->
     
@@ -44,8 +41,10 @@
 			    unset($_SESSION['message']);
 		    ?>
 	    </div>
-		<?php endif ?>
-		
+    <?php endif ?>
+
+
+
 <!-- De databaserecords ophalen en deze op de pagina weergeven -->
 
     <?php $results = mysqli_query($db, "SELECT * FROM info"); ?>
@@ -58,7 +57,7 @@
 			    <th colspan="2">ACTION</th>
 		    </tr>
 			</thead>
-
+			
 	<!-- Specifiek neerzetten van de information in de bijbehorende rows -->
 
 	<?php while ($row = mysqli_fetch_array($results)) { ?>
@@ -99,8 +98,6 @@
 			</div>
 		</form>
 
-	
-	</div>
 
   </body>
 </html>

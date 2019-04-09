@@ -1,0 +1,108 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: grid;
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+}
+
+h3 {
+    display: grid;
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+
+}
+
+table{
+    width: 50%;
+    margin: 100px auto;
+    border-collapse: collapse;
+    text-align: left;
+    border: solid black 3px;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+    background: #F5F5F5;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 47%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: grid;
+    text-align: center;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background: yellowgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #E5E501;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: orangered;
+}
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
